@@ -1,0 +1,44 @@
+/* game board table */
+body.centercss{
+  margin: auto;
+  width: 50%;
+  padding: auto;
+}
+
+h1{
+  font-family: "Sofia", sans-serif;
+}
+
+p{
+  font-family: sans-serif;
+}
+
+#board td {
+  width: 50px;
+  height: 50px;
+  border: solid 1px #666;
+}
+
+.piece {
+  margin: 5px;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+}
+
+.piece.p1 {
+  background-color: rgba(85, 163, 85, 0.301);
+}
+
+.piece.p2 {
+  background-color:orange;
+}
+
+#column-top td {
+  border: dashed 1px lightgray;
+}
+
+#column-top td:hover {
+  background-color: gold;
+}
+
